@@ -26,7 +26,10 @@ A clean Python library for downloading Twitch VOD metadata, video files, and cha
 
 ## Installation
 
-### Poetry (recommended)
+### pip (recommended)
+pip install twitch-vod-lib
+
+### Poetry (for dev)
 ```bash
 git clone https://github.com/sontiago/twitch-vod-lib.git
 cd twitch-vod-lib
@@ -45,12 +48,6 @@ Run the library:
 
 ```bash
 poetry run python your_script.py
-```
-
-### pip (alternative)
-
-```bash
-pip install -e ".[dev]"
 ```
 
 ## Quick start
